@@ -25,9 +25,32 @@ p {
     font-family: "Work Sans", sans-serif;
 }
 /* ================
+    Navbar section
+   ================*/
+.c-navbar .navbar-brand {
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.c-navbar .logo {
+    width: 45px;
+}
+
+/* ================
     Header section
    ================*/
-
+.hero-section {
+    background: url(../imgs/mbr-10.jpg) no-repeat center center/cover;
+    padding: 200px 0;
+}
+.hero-title h4 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.hero-title h2 {
+    font-size: 45px;
+}
 /* ================
     Content
    ================*/
