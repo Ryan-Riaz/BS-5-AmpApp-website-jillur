@@ -24,6 +24,9 @@ h6,
 p {
     font-family: "Work Sans", sans-serif;
 }
+.full-height {
+    height: 100%;
+}
 /* ================
     Navbar section
    ================*/
@@ -101,6 +104,22 @@ p {
 .counter .c-title {
     color: #333;
     font-weight: 400;
+    font-size: 20px;
+}
+
+/* ================
+    intro
+   ================*/
+.intro {
+    padding: 100px 0;
+    background: #f7f9ff;
+}
+.intro .heading {
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.intro .subheading {
     font-size: 20px;
 }
 /* ================
