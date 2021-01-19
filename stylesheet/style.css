@@ -27,6 +27,12 @@ p {
 .full-height {
     height: 100%;
 }
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 /* ================
     Navbar section
    ================*/
@@ -222,6 +228,72 @@ p {
     visibility: visible;
 }
 
+/* ================
+    pricing area
+   ================*/
+.pricing-area {
+    background: #f7f9ff;
+    padding: 100px;
+}
+.pricing-area .title {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.pricing-area .title h2 {
+    letter-spacing: 1px;
+}
+.pricing-area .title p {
+    font-size: 25px;
+    font-weight: 300;
+    color: gray;
+}
+.pricing-area .box {
+    background: #fff;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.1);
+    padding: 20px;
+}
+.pricing-area .box:hover {
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+}
+.pricing-area .box:hover .pricing-btn .btn {
+    background: #6278df;
+    color: #fff;
+}
+.box .top-text {
+    padding: 20px;
+}
+.pricing-area .box h2 {
+    margin-bottom: 25px;
+}
+.pricing-area .box p {
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+}
+.pricing-box .pricing-list {
+    font-size: 21px;
+    color: gray;
+    font-weight: 300;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.pricing-box .pricing-list i {
+    color: #6278df;
+    margin-right: 20px;
+    font-size: 25px;
+}
+.pricing-btn {
+    padding: 25px;
+}
+.pricing-btn .btn-primary {
+    padding: 15px 20px;
+    background: #fff;
+    color: #6278df;
+    border: none;
+    font-size: 20px;
+    box-shadow: 2.5px 4.33px 30px 0 rgba(64, 87, 191, 0.2);
+    font-weight: 600;
+}
 /* ================
     App download
    ================*/
